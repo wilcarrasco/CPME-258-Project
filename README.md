@@ -5,13 +5,13 @@ Deep Learning SJSU Course
 * Wil Carrasco
 
 ## Project Tile: 
-Deep Learning CNN Animal Classifier
+Deep Learning CNN dog/cat Classifier w/VGG16
  
 ## Description:
-Using a Convolutional Neural Network to identify cat & dog images.
+Using a Convolutional Neural Network w/ VGG16 to identify cat & dog images.
 
 ## Project Idea
-Using multiple images of cats and dogs can we create a CNN to binary classify images between the two types.
+Using multiple images of cats and dogs can we create a CNN to categorize images between the two types.
 
 ## Proposed Solution
 Step 1: Data ingestion, data cleaning, and initial visualization (if necessary)
@@ -26,9 +26,7 @@ Step 5: Evaluate the model against the test set and verify accuracy metrics
 
 Step 6: Revisit steps as required to incorporate learned techniques to improve metrics
 
-Step 7: Train the CNN model on the entire dataset
-
-Step 8: Feed the model new and unseen data and verify correct classification
+Step 7: Feed the model new and unseen data and verify correct classification
 
 Data Set
 ------------
