@@ -1,4 +1,4 @@
-# CMPE257-Project-Team-7
+# CMPE258-Project-Team-7
 Deep Learning SJSU Course
 
 ## Contributors:
