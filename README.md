@@ -28,8 +28,27 @@ Step 6: Revisit steps as required to incorporate learned techniques to improve m
 
 Step 7: Feed the model new and unseen data and verify correct classification
 
+
 Data Set
 ------------
 [dogs-vs-cats Data Set](https://www.kaggle.com/biaiscience/dogs-vs-cats)  
 [Download Link](https://www.kaggle.com/biaiscience/dogs-vs-cats/download)
 =======
+
+## Large File Storage & Pre-Build Models
+Downloading these large files requires that [LFS](https://git-lfs.github.com/) is installed on your system.
+
+Included is 'data.zip' which contains all the datasets used in this project. In addition, two pre-build models
+are also included that can be used load load up and run immediate testing/usage since training takes 12+ hrs:
+
+* 'cats_vs_dog_CNN_simple_85.h5' -- simple model with a 85% validation accuracy rating
+
+* 'cats_vs_dog_CNN_VGG_98.h5' -- complex model using VGG16 with a 98.5% accuracy rating
+
+model can be loaded with the following usage: https://www.tensorflow.org/guide/keras/save_and_serialize
+
+```python
+from tensorflow import keras
+
+model = keras.models.load_model('path/to/location')
+```
